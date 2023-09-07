@@ -11,4 +11,11 @@ year=2020
 if isLeapYear(year):
     print("{} is a leap Year". format (year))  
 else:  
-    print ("{} is not a leap Year". format (year))
+    print ("{} is not a leap Year". format (year))def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n - 1)
+
+
+print(factorial(10))
