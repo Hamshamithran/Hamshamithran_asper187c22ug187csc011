@@ -1,0 +1,5 @@
+java.io.*;
+public class main{ public static void main(String[]a)
+{for(i=0;i<10;i+2){System.out
+.println("output="+i);}
+}}
